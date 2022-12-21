@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calcolo del prezzo del biglietto del treno</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CALCOLA IL PREZZO DEL BIGLIETTO</h1>
+        <section id="section-one">
+            <div class="my-input">
+                <div>
+                    <label for="name-input">
+                        nome completo
+                    </label>
+                    <div>
+                        <input id="name-input" type="text" placeholder="inserisci nome completto">
+                    </div>
+                </div>
+        
+                <div>
+                    <label for="km-input">
+                        km da pecorrere
+                    </label>
+                    <div>
+                        <input id="km-input" type="number" placeholder="inserisci i km da percorrere">
+                    </div>
+                </div>
+        
+                <div>
+                    <label for="age-select">
+                        scegli l'età
+                    </label>
+                    <div>
+                        <select id="age-select">
+                            <option value="min">minorenne</option>
+                            <option value="magg">maggiorenne</option>
+                            <option value="over">over 65</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="my-btn">
+                <button id="btn-genera">Genera</button>
+                <button id="btn-anulla">Anulla</button>
+            </div>
+        </section>
+
+
+        <h1>IL TUO BIGLIETTO</h1>
+        <section id="section-two">
+            <h5>DETTAGLIO PASSEGGERI</h5>
+            <hr>
+            <div class="items">
+                <div class="nome">
+                    <span>NOME PASSEGGERO</span>
+                    <span id="nome passeggero">j</span>
+                </div>
+                <div class="offerta">
+                    <span>Offerta</span>
+                    <span id="offerta">sdf</span>
+                </div>
+                <div class="offerta">
+                    <span>Offerta</span>
+                    <span id="carrozza">sdf</span>
+                </div>
+                <div class="offerta">
+                    <span>Offerta</span>
+                    <span id="codice-cp">sdf</span>
+                </div>
+                <div class="offerta">
+                    <span>Offerta</span>
+                    <span id="costo biglietto">sdf</span>
+                </div>
+                <div class="offerta">
+                    <span>Offerta</span>
+                    <span id="sconto">sdf</span>
+                </div>
+            </div>
+            
+            <hr class="hr">
+           
+        </section>
+    </div>
+
+
+    <script type="text/javascript" src="js/scripts.js"></script>
+</body>
+</html>
